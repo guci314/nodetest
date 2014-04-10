@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0627e3f8-cad6-4d79-9795-a9fb318ce8fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/getpage.js" afterPath="$PROJECT_DIR$/getpage.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/joomlaarticle.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/jsLibraryMappings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/nodetest.iml" afterPath="$PROJECT_DIR$/.idea/nodetest.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodetest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -25,13 +28,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="getpage.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="getpage.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/getpage.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="3" selection-start="1784" selection-end="1784" vertical-scroll-proportion="0.9045226" vertical-offset="552" max-vertical-offset="1026">
+            <state line="4" column="14" selection-start="63" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
               <folding>
                 <element signature="e#0#47#0" expanded="false" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="joomlaarticle.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/joomlaarticle.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="418">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/test.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="10" column="23" selection-start="267" selection-end="267" vertical-scroll-proportion="0.47738692" vertical-offset="0" max-vertical-offset="437">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -69,6 +90,9 @@
       <list>
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/getpage.js" />
+        <option value="$PROJECT_DIR$/node_modules/joomlaarticle.js" />
+        <option value="$PROJECT_DIR$/joomlaarticle.js" />
+        <option value="$PROJECT_DIR$/test.js" />
       </list>
     </option>
   </component>
@@ -147,7 +171,12 @@
     <property name="recentsLimit" value="5" />
     <property name="restartRequiresConfirmation" value="true" />
   </component>
-  <component name="RunManager" selected="Node.js.Unnamed">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\myfiles\javascript\nodetest" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Node.js.postarticle">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
       <option name="VMOptions" />
       <option name="arguments" />
@@ -198,11 +227,17 @@
       <browser start="false" url="" with-js-debugger="false" />
       <method />
     </configuration>
-    <configuration default="false" name="Unnamed" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="getpage.js" working-dir="$PROJECT_DIR$">
+    <configuration default="false" name="getpage" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="getpage.js" working-dir="$PROJECT_DIR$">
       <browser start="false" url="" with-js-debugger="false" />
       <RunnerSettings RunnerId="NodeJS.debug" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="postarticle" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="joomlaarticle.js" working-dir="$PROJECT_DIR$">
+      <browser start="false" url="" with-js-debugger="false" />
+      <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
       <method />
     </configuration>
@@ -212,9 +247,10 @@
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <method />
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Node.js.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Node.js Remote Debug.remote debug" />
+    <list size="3">
+      <item index="0" class="java.lang.String" itemvalue="Node.js.getpage" />
+      <item index="1" class="java.lang.String" itemvalue="Node.js.postarticle" />
+      <item index="2" class="java.lang.String" itemvalue="Node.js Remote Debug.remote debug" />
     </list>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
@@ -261,7 +297,7 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329653" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -293,13 +329,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="24" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="361">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/request/request.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="391" column="0" selection-start="12214" selection-end="12214" vertical-scroll-proportion="0.0" vertical-offset="7316" max-vertical-offset="25612">
@@ -307,12 +336,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="24" selection-start="189" selection-end="189" vertical-scroll-proportion="-4.75" vertical-offset="0" max-vertical-offset="361">
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/getpage.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="3" selection-start="1784" selection-end="1784" vertical-scroll-proportion="0.9045226" vertical-offset="552" max-vertical-offset="1026">
+        <state line="4" column="14" selection-start="63" selection-end="81" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1026">
           <folding>
             <element signature="e#0#47#0" expanded="false" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/joomlaarticle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="418">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="267" selection-end="267" vertical-scroll-proportion="0.47738692" vertical-offset="0" max-vertical-offset="437">
+          <folding />
         </state>
       </provider>
     </entry>
