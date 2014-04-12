@@ -5,9 +5,14 @@
     "main": "server.js",
     "author": "Scotch",
     "dependencies": {
-        "express": "latest",
+        "node-fs": "latest",
         "request": "latest",
-        "cheerio": "latest"
+        "cheerio": "latest",
+        "wrench": "latest",
+        "simplecrawler": "latest",
+        "iconv-lite": "latest",
+        "bufferhelper": "latest",
+        "mongojs": "latest"
     }
 }
 

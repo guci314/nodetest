@@ -1,4 +1,7 @@
 /**
+ * Created by Administrator on 14-4-12.
+ */
+/**
  * Created by Administrator on 14-4-11.
  */
 
@@ -10,16 +13,18 @@ var fs = require('node-fs'),
     wrench = require('wrench'),
     Crawler = require("simplecrawler").Crawler;
 
+var cheerio = require('cheerio');
 var StringDecoder = require('string_decoder').StringDecoder;
 var decoder = new StringDecoder('utf8');
 var iconv = require('iconv-lite');
 var BufferHelper = require('bufferhelper');
 
 var databaseUrl = "mydb"; // "username:password@example.com/mydb"
-var collections = ["weibing"]
+var collections = ["sites"]
 var db = require("mongojs").connect(databaseUrl, collections);
 
-db.weibing.drop();
+db.sites.drop();
+
 
 /**
  * @param String. Domain to download.
@@ -28,19 +33,33 @@ db.weibing.drop();
 var downloadSite = function (domain, callback) {
 
     // Where to save downloaded data
-    var outputDirectory = "D:/webdata" + '/' + domain
+    //var outputDirectory = "D:/webdata" + '/' + domain
     var myCrawler = new Crawler(domain)
     myCrawler.interval = 250
     myCrawler.maxConcurrency = 5
 
     myCrawler.on("fetchcomplete", function (queueItem, responseBuffer, response) {
-        if (queueItem.url.indexOf('.html') != -1) {
-            var s = iconv.decode(responseBuffer, 'gb2312');
+        if ((queueItem.url.indexOf('.html') != -1) || (queueItem.url.indexOf('.htm') != -1)) {
+            var s='';
+            if (charset== 'gb2312'){
+                s=iconv.decode(responseBuffer, 'gb2312');
+              }
+              else{
+                s=responseBuffer.toString();
+            };
+//            var s =iconv.decode(responseBuffer, 'utf8');//responseBuffer.toString(); //iconv.decode(responseBuffer, 'gb2312');//iconv.decode(responseBuffer, 'utf8');
             console.log(queueItem.url);
+            console.log(s);
             var l={};
             l.url=queueItem.url;
             l.content=s;
-            db.weibing.save(l);
+            var $ = cheerio.load(s);
+            var path = 'title';
+            var title = $(path).text();
+            console.log('title:'+title);
+            l.title=title;
+            l.category=site;
+            db.sites.save(l);
         }
 //        {
 //            // Parse url
@@ -90,10 +109,14 @@ var downloadSite = function (domain, callback) {
 
 }
 
-//if (process.argv.length < 3) {
-//    console.log('Usage: node downloadSiteExample.js mysite.com')
-//    process.exit(1)
-//}
-downloadSite("www.wbing.org", function () {
+if (process.argv.length < 3) {
+    console.log('Usage: node downloadSiteExample.js mysite.com')
+    process.exit(1)
+}
+
+console.log(process.argv[2]);
+var site=process.argv[2];
+var charset=process.argv[3];
+downloadSite(site, function () {
     console.log('Done!')
 })
