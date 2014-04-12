@@ -19,11 +19,6 @@ var decoder = new StringDecoder('utf8');
 var iconv = require('iconv-lite');
 var BufferHelper = require('bufferhelper');
 
-var databaseUrl = "mydb"; // "username:password@example.com/mydb"
-var collections = ["sites"]
-var db = require("mongojs").connect(databaseUrl, collections);
-
-db.sites.drop();
 
 
 /**
@@ -114,9 +109,17 @@ if (process.argv.length < 3) {
     process.exit(1)
 }
 
+//参数：数据库名，域名，字符集
 console.log(process.argv[2]);
-var site=process.argv[2];
-var charset=process.argv[3];
+
+var databaseUrl = process.argv[2]; // "username:password@example.com/mydb"
+var collections = ["sites"]
+var db = require("mongojs").connect(databaseUrl, collections);
+db.sites.drop();
+
+var site=process.argv[3];
+var charset=process.argv[4];
+
 downloadSite(site, function () {
     console.log('Done!')
 })
