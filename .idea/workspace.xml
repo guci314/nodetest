@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0627e3f8-cad6-4d79-9795-a9fb318ce8fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/scrape.js" afterPath="$PROJECT_DIR$/js/scrape.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/addCategory.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/joomla.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/js/loadfiletomongodb.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="nodetest.iws" />
@@ -26,56 +28,14 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="xuefo.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/xuefo.js">
+      <file leaf-file-name="joomla.js" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/js/joomla.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="598" max-vertical-offset="2392">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getLinks.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/getLinks.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="2" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="1311">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="testCrawler.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/testCrawler.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="savetodisk.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/savetodisk.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="713" max-vertical-offset="1771">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scrape.js" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/js/scrape.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="112" column="29" selection-start="3600" selection-end="3600" vertical-scroll-proportion="0.43706295" vertical-offset="2280" max-vertical-offset="2944">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="getpage.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/getpage.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="32" column="12" selection-start="1161" selection-end="1189" vertical-scroll-proportion="0.0" vertical-offset="736" max-vertical-offset="1288">
-              <folding />
+            <state line="23" column="16" selection-start="647" selection-end="647" vertical-scroll-proportion="0.52803737" vertical-offset="4" max-vertical-offset="943">
+              <folding>
+                <element signature="e#61#151#0" expanded="false" />
+                <element signature="n#!!block;n#generateUUID#0" expanded="false" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -83,34 +43,7 @@
       <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="33" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="552">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="postdata.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/postdata.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="2" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="506" max-vertical-offset="1035">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="phantomjsTest.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/js/phantomjsTest.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="0" selection-start="221" selection-end="221" vertical-scroll-proportion="0.0" vertical-offset="207" max-vertical-offset="368">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="temp.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/temp.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="71" column="47" selection-start="3454" selection-end="3454" vertical-scroll-proportion="-1.4375" vertical-offset="1587" max-vertical-offset="3519">
+            <state line="13" column="33" selection-start="380" selection-end="380" vertical-scroll-proportion="-6.0" vertical-offset="107" max-vertical-offset="552">
               <folding />
             </state>
           </provider>
@@ -148,6 +81,9 @@
         <option value="$PROJECT_DIR$/js/scrape-utf8.js" />
         <option value="$PROJECT_DIR$/js/xuefo.js" />
         <option value="$PROJECT_DIR$/js/scrape.js" />
+        <option value="$PROJECT_DIR$/js/loadfiletomongodb.js" />
+        <option value="$PROJECT_DIR$/js/addCategory.js" />
+        <option value="$PROJECT_DIR$/js/joomla.js" />
       </list>
     </option>
   </component>
@@ -183,6 +119,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,7 +154,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -237,19 +173,7 @@
       <recent name="D:\myfiles\javascript\nodetest" />
     </key>
   </component>
-  <component name="RunManager" selected="Node.js.savetodisk.js">
-    <configuration default="false" name="getLinks.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="getLinks.js" working-dir="$PROJECT_DIR$/js">
-      <browser start="false" url="" with-js-debugger="false" />
-      <RunnerSettings RunnerId="NodeJS.run" />
-      <ConfigurationWrapper RunnerId="NodeJS.run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="testmongo.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="testmongo.js" working-dir="$PROJECT_DIR$/js">
-      <browser start="false" url="" with-js-debugger="false" />
-      <RunnerSettings RunnerId="NodeJS.run" />
-      <ConfigurationWrapper RunnerId="NodeJS.run" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Node.js.joomla.js">
     <configuration default="false" name="testCrawler.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="testCrawler.js" working-dir="$PROJECT_DIR$/js">
       <browser start="false" url="" with-js-debugger="false" />
       <RunnerSettings RunnerId="NodeJS.run" />
@@ -257,6 +181,24 @@
       <method />
     </configuration>
     <configuration default="false" name="savetodisk.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="savetodisk.js" working-dir="$PROJECT_DIR$/js">
+      <browser start="false" url="" with-js-debugger="false" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="loadfiletomongodb.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="loadfiletomongodb.js" working-dir="$PROJECT_DIR$/js">
+      <browser start="false" url="" with-js-debugger="false" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="addCategory.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="addCategory.js" working-dir="$PROJECT_DIR$/js">
+      <browser start="false" url="" with-js-debugger="false" />
+      <RunnerSettings RunnerId="NodeJS.run" />
+      <ConfigurationWrapper RunnerId="NodeJS.run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="joomla.js" type="NodeJSConfigurationType" factoryName="Node.js" temporary="true" path-to-node="C:/Program Files/nodejs/node" path-to-js-file="joomla.js" working-dir="$PROJECT_DIR$/js">
       <browser start="false" url="" with-js-debugger="false" />
       <RunnerSettings RunnerId="NodeJS.run" />
       <ConfigurationWrapper RunnerId="NodeJS.run" />
@@ -332,21 +274,23 @@
       <ConfigurationWrapper RunnerId="NodeJS.debug" />
       <method />
     </configuration>
-    <list size="7">
+    <list size="8">
       <item index="0" class="java.lang.String" itemvalue="Node.js.getpage" />
       <item index="1" class="java.lang.String" itemvalue="Node.js.postarticle" />
       <item index="2" class="java.lang.String" itemvalue="Node.js Remote Debug.remote debug" />
-      <item index="3" class="java.lang.String" itemvalue="Node.js.getLinks.js" />
-      <item index="4" class="java.lang.String" itemvalue="Node.js.testmongo.js" />
-      <item index="5" class="java.lang.String" itemvalue="Node.js.testCrawler.js" />
-      <item index="6" class="java.lang.String" itemvalue="Node.js.savetodisk.js" />
+      <item index="3" class="java.lang.String" itemvalue="Node.js.testCrawler.js" />
+      <item index="4" class="java.lang.String" itemvalue="Node.js.savetodisk.js" />
+      <item index="5" class="java.lang.String" itemvalue="Node.js.loadfiletomongodb.js" />
+      <item index="6" class="java.lang.String" itemvalue="Node.js.addCategory.js" />
+      <item index="7" class="java.lang.String" itemvalue="Node.js.joomla.js" />
     </list>
     <recent_temporary>
-      <list size="4">
-        <item index="0" class="java.lang.String" itemvalue="Node.js.savetodisk.js" />
-        <item index="1" class="java.lang.String" itemvalue="Node.js.testCrawler.js" />
-        <item index="2" class="java.lang.String" itemvalue="Node.js.getLinks.js" />
-        <item index="3" class="java.lang.String" itemvalue="Node.js.testmongo.js" />
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Node.js.joomla.js" />
+        <item index="1" class="java.lang.String" itemvalue="Node.js.addCategory.js" />
+        <item index="2" class="java.lang.String" itemvalue="Node.js.loadfiletomongodb.js" />
+        <item index="3" class="java.lang.String" itemvalue="Node.js.savetodisk.js" />
+        <item index="4" class="java.lang.String" itemvalue="Node.js.testCrawler.js" />
       </list>
     </recent_temporary>
   </component>
@@ -398,7 +342,11 @@
       <created>1397288791334</created>
       <updated>1397288791334</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="scrape&#10;">
+      <created>1397313534097</created>
+      <updated>1397313534097</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -413,13 +361,13 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39905363" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.42271292" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26182964" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329653" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.329653" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -443,33 +391,21 @@
     <MESSAGE value="successful add article" />
     <MESSAGE value="rename file" />
     <MESSAGE value="scrape" />
-    <option name="LAST_COMMIT_MESSAGE" value="scrape" />
+    <MESSAGE value="scrape&#10;" />
+    <option name="LAST_COMMIT_MESSAGE" value="scrape&#10;" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="9" />
+      <breakpoints-dialog>
+        <breakpoints-dialog />
+      </breakpoints-dialog>
+      <option name="time" value="10" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/js/xuefo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="598" max-vertical-offset="2392">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/getLinks.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="46" max-vertical-offset="1311">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/testCrawler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/savetodisk.js">
@@ -523,28 +459,24 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/testmongo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="552" />
+        <state line="10" column="2" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="552">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/getLinks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="1311">
-          <folding />
-        </state>
+        <state line="6" column="0" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0" vertical-offset="138" max-vertical-offset="1311" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/xuefo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="37" column="45" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="851" max-vertical-offset="1587">
-          <folding />
-        </state>
+        <state line="37" column="45" selection-start="1114" selection-end="1114" vertical-scroll-proportion="0.0" vertical-offset="851" max-vertical-offset="1587" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/testCrawler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="35" selection-start="286" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="759">
-          <folding />
-        </state>
+        <state line="10" column="35" selection-start="286" selection-end="299" vertical-scroll-proportion="0.0" vertical-offset="230" max-vertical-offset="759" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/savetodisk.js">
@@ -601,14 +533,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/testmongo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="226" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="529" />
+        <state line="8" column="16" selection-start="226" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="184" max-vertical-offset="529">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/getLinks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="15" column="10" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="989">
-          <folding />
-        </state>
+        <state line="15" column="10" selection-start="394" selection-end="394" vertical-scroll-proportion="0.0" vertical-offset="345" max-vertical-offset="989" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -637,14 +569,14 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/testmongo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="16" selection-start="226" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="437" />
+        <state line="8" column="16" selection-start="226" selection-end="242" vertical-scroll-proportion="0.0" vertical-offset="152" max-vertical-offset="437">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/getLinks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="36" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="703">
-          <folding />
-        </state>
+        <state line="33" column="36" selection-start="1009" selection-end="1009" vertical-scroll-proportion="0.0" vertical-offset="627" max-vertical-offset="703" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -688,23 +620,11 @@
         <state line="5" column="0" selection-start="147" selection-end="147" vertical-scroll-proportion="0.0" vertical-offset="7" max-vertical-offset="828" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="33" selection-start="380" selection-end="380" vertical-scroll-proportion="0.0" vertical-offset="107" max-vertical-offset="552">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/js/postdata.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="22" column="2" selection-start="479" selection-end="479" vertical-scroll-proportion="0.0" vertical-offset="167" max-vertical-offset="989">
           <folding />
         </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/js/testmongo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="2" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/phantomjsTest.js">
@@ -716,9 +636,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/testCrawler.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="759" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/getpage.js">
@@ -730,36 +648,86 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/xuefo.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="1587">
-          <folding />
-        </state>
+        <state line="26" column="0" selection-start="686" selection-end="686" vertical-scroll-proportion="0.0" vertical-offset="246" max-vertical-offset="1587" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/getLinks.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="2" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="1311">
+        <state line="2" column="2" selection-start="46" selection-end="46" vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="1311" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/temp.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="71" column="47" selection-start="3454" selection-end="3454" vertical-scroll-proportion="0.0" vertical-offset="1587" max-vertical-offset="3519">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/savetodisk.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="0" selection-start="959" selection-end="959" vertical-scroll-proportion="0.0" vertical-offset="498" max-vertical-offset="1771">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1771">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/temp.html">
+    <entry file="file://$USER_HOME$/.WebStorm7/system/extLibs/nodejs-v0.10.24-src/core-modules-sources/lib/fs.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="71" column="47" selection-start="3454" selection-end="3454" vertical-scroll-proportion="-1.4375" vertical-offset="1587" max-vertical-offset="3519">
-          <folding />
-        </state>
+        <state line="653" column="5" selection-start="17095" selection-end="17095" vertical-scroll-proportion="0.47634068" vertical-offset="14431" max-vertical-offset="40158" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/js/scrape.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="112" column="29" selection-start="3600" selection-end="3600" vertical-scroll-proportion="0.43706295" vertical-offset="2280" max-vertical-offset="2944">
+        <state line="117" column="16" selection-start="3602" selection-end="3784" vertical-scroll-proportion="0.0" vertical-offset="2691" max-vertical-offset="2990">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/loadfiletomongodb.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="11" column="62" selection-start="268" selection-end="424" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1242">
+          <folding>
+            <marker date="1397332369438" expanded="true" signature="-1:-1" placeholder="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/testmongo.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="2" selection-start="246" selection-end="246" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/addCategory.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="31" column="7" selection-start="910" selection-end="910" vertical-scroll-proportion="0.0" vertical-offset="151" max-vertical-offset="828">
+          <folding>
+            <element signature="e#0#47#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="33" selection-start="380" selection-end="380" vertical-scroll-proportion="-6.0" vertical-offset="107" max-vertical-offset="552">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/mongojs/node_modules/mongodb/lib/mongodb/db.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2111" column="7" selection-start="86015" selection-end="86015" vertical-scroll-proportion="0.54672897" vertical-offset="48319" max-vertical-offset="48967">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/joomla.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="23" column="16" selection-start="647" selection-end="647" vertical-scroll-proportion="0.52803737" vertical-offset="4" max-vertical-offset="943">
+          <folding>
+            <element signature="e#61#151#0" expanded="false" />
+            <element signature="n#!!block;n#generateUUID#0" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
