@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0627e3f8-cad6-4d79-9795-a9fb318ce8fa" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/js/joomla.js" afterPath="$PROJECT_DIR$/js/joomla.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MOVED" beforePath="D:\myfiles\javascript\nodetest\js\addCategory.js" afterPath="$PROJECT_DIR$/js/postToJoomla.js" />
     </list>
     <ignored path="nodetest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -50,7 +48,7 @@
       <file leaf-file-name="postToJoomla.js" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/postToJoomla.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="27" column="36" selection-start="974" selection-end="974" vertical-scroll-proportion="0.7356322" vertical-offset="319" max-vertical-offset="1035">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
               <folding>
                 <element signature="e#0#47#0" expanded="false" />
               </folding>
@@ -360,7 +358,11 @@
       <created>1397354601343</created>
       <updated>1397354601343</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="fix bug">
+      <created>1397355137397</created>
+      <updated>1397355137397</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -407,7 +409,8 @@
     <MESSAGE value="scrape" />
     <MESSAGE value="scrape&#10;" />
     <MESSAGE value="数据导入了joomla" />
-    <option name="LAST_COMMIT_MESSAGE" value="数据导入了joomla" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -744,7 +747,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/postToJoomla.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="36" selection-start="974" selection-end="974" vertical-scroll-proportion="0.7356322" vertical-offset="319" max-vertical-offset="1035">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1035">
           <folding>
             <element signature="e#0#47#0" expanded="false" />
           </folding>
