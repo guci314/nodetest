@@ -12,7 +12,9 @@
         "simplecrawler": "latest",
         "iconv-lite": "latest",
         "bufferhelper": "latest",
-        "mongojs": "latest"
+        "mongojs": "latest",
+        "async": "latest",
+        "mysql": "latest"
     }
 }
 
