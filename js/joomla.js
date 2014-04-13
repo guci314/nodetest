@@ -30,7 +30,7 @@ function CreateArticle(catId,artTitle,artIntroTxt,artFulltxt,callBack) {
     var assetTitle = generateUUID();
 
     connection.query(insertAsset, [assetName, assetTitle], function (err, result) {
-        if (err) throw err;
+        if (err) callBack('fail');
 
         console.log(result.insertId);
         var assetid = result.insertId;

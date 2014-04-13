@@ -10,14 +10,15 @@ var db = require("mongojs").connect(databaseUrl, collections);
 //var count = 0;
 function postToJoomla(doc,cb){
     console.log('create article:'+doc.title);
-    joomla.CreateArticle(10,doc.title,'',doc.txt,function(){cb()});
+    joomla.CreateArticle(11,doc.title,'',doc.txt,function(){cb()});
 }
-db.pages.find({category: '净空法师'}, function (err, docs) {
+db.pages.find({category: '印光大师'}, function (err, docs) {
     if (err) return;
 //    var documents=new Array();
 //    docs.forEach(function(d){documents.push(d);});
     async.eachSeries(docs,postToJoomla,function(){
         console.log('finished');
+        process.exit(0);
     });
 //    docs.forEach(function (doc){
 ////        console.log(doc.title);
